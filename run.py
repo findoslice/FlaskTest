@@ -5,4 +5,4 @@ app = Flask(__name__)
 def index():
 	return 'Yo, it's working!'
 if __name__ == "__main__":
-	app.run()
+	app.run(debug=True, port=33507)
